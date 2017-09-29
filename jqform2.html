@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+	<title>form2</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  	
+</head>
+<body>
+	<section class="container w-50">
+		<p>Log In</p>
+		<form id="logIn">
+			 <div class="form-group">
+			 	<label for="name">Name :</label> 
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-6">
+     					<input type="text" class="form-control" name="firstname"  id="fname" placeholder="First name" required>
+                    </div>
+   	 				<div class="col-12 col-md-6 col-lg-6">
+      					<input type="text" class="form-control" name="lastname" id="lname" placeholder="Last name" required>
+    				</div>
+				</div>
+				<label for="gender" name="genderinput">Gender : </label><br>
+				<select class="form-control col-lg-6" id="igender">
+      					<option>select</option>
+      					<option>Male</option>
+      					<option>Female</option>
+      					<option>Others</option>
+    			</select><br>
+    			<label for="email">Addres : </label><br>
+    			<input id="address" type="address" name="addresinput" class="col" placeholder="" required><br>
+     			<label for="name">State:</label>	
+                <input id="state" type="state" name="stateinput" class="col" placeholder="" required><br>
+                <label for="name">Country:</label>	
+                <input id="Country" type="country" name="countryinput" class="col" placeholder="" required><br>
+                <label for="name">Mobile:</label>	
+                <input id="mobile" type="mobile" name="mobileinput" class="col" placeholder="" required><br>
+				<label for="email">E-Mail :</label><br>
+      			<input id="email" type="email" name="email" class="col" placeholder="example@gmail.com" required><br>	
+      			<label for="password">Password :</label><br>
+      			<input  type="password" name="password"  placeholder="password" required><br>
+      			<label for="password">Confirmation Password :</label><br>
+      			<input id="pswrd" type="password" name="comfirmpassword" placeholder="password" required><br>
+      			<input class="submit" type="submit" value="Submit"> 	
+			</div>
+		</form>
+	</section>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="http://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	<script  src="formjquary.js"></script>
+	
+</body>
+</html>
